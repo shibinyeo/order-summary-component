@@ -1,0 +1,97 @@
+/* Background */
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/* Quick Classes */
+
+.fw-500 {font-weight: 500;}
+.fw-700 {font-weight: 700;}
+.fw-900 {font-weight: 900;}
+
+.dark-blue {color: hsl(223, 47%, 23%);}
+.desaturated-blue {color: hsl(224, 23%, 55%);}
+
+.title {
+    margin-bottom: 0px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+/* Main Card */
+main {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.music-girl {
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.card-content {
+    padding: 0 10%;
+}
+
+.subscription-plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 2% 5%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    line-height: 0.5;
+}
+
+.music-icon {
+    margin-right: 15px;
+}
+
+.change-plan {
+    position: relative;
+    color: black;
+    left: 60px;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color:hsl(223, 47%, 23%);
+}
+
+.submit-button {
+    background-color: hsl(245, 75%, 52%);
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5% 0;
+    margin: 30px 0 15px;
+    box-shadow: 0 15px 10px 0px hsl(225, 100%, 92%);
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #766cf1;
+}
+
+/* Footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
